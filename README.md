@@ -1,6 +1,6 @@
 # BaseLineNote
 自定义View画文本时的基线笔记
-
+![image](https://github.com/zghhr1122/BaseLineNote/baeline.png)
 如上图红色方框所示，文字在绘制的时候，会根据当前的字体，字体大小等信息，确认Leading，top，bottom，ascent，descent，baseline的值，这些值会最终影响到字体在TextView中的显示位置，通过getPaint().getFontMetricsInt()可以获取到这些值（这些值都是以baseLine为原点的坐标系测量的值）
 Leading：文字上方可能出现一些特殊的符号，为什么第一幅图中没有说明Leading的存在呢，原因是我们通常在绘制一行英文或者中文时，Leading的高度为0
 top：是指的是最高字符到baseline的值，即ascent的最大值，为负数
