@@ -46,8 +46,10 @@ Paint.FontMetricsInt  fontMetricsInt = mPaint.getFontMetricsInt();
 
 那么实际baseLine在已屏幕为原点的坐标系（A坐标系）中的y值应该为
 
-直观写法
+baseLineY = Height / 2 + 基线到中线的距离
+即
+1、直观写法
 baseLineY = (int) (getHeight() / 2 + ((bottom-top)/2 - bottom));
 
-去括号换算后写法
+2、去括号换算后写法
 baseLineY = (int) (getHeight() / 2 - top / 2 - bottom / 2);
