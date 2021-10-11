@@ -40,8 +40,14 @@ Paint.FontMetricsInt  fontMetricsInt = mPaint.getFontMetricsInt();
 
 基线到中线的距离 = （Descent - Ascent）/ 2 - Descent
 
+也可以是基线到中线的距离 = （bottom - top）/ 2 - bottom  【比较精准】
+
 注意Ascent的实际值为负值
 
 那么实际baseLine在已屏幕为原点的坐标系（A坐标系）中的y值应该为
 
-baseLineY = Height / 2 + 基线到中线的距离
+直观写法
+baseLineY = (int) (getHeight() / 2 + ((bottom-top)/2 - bottom));
+
+去括号换算后写法
+baseLineY = (int) (getHeight() / 2 - top / 2 - bottom / 2);
