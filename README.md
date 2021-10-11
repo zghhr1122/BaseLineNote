@@ -11,6 +11,7 @@ ascent：是baseline之上至字符最高处的距离，为负数
 descent：是baseline之下至字符最低处的距离，为正数
 这些值我们都可以通过Paint.FontMetricsInt获取到
 
+
 Paint.FontMetricsInt  fontMetricsInt = mPaint.getFontMetricsInt();
 
         int top = fontMetricsInt.top;
