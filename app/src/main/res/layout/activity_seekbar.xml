@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".seekText.SeekbarActivity">
-    <com.example.dragdemo.seekText.TextSeekbar
+    <com.jsdzxyh.oldkugou.seekText.TextSeekbar
         android:id="@+id/seekbar"
        android:thumb="@drawable/ok"
         android:progressDrawable="@drawable/myprogressbar"

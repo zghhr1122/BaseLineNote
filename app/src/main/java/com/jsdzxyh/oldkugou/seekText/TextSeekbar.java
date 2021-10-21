@@ -1,4 +1,4 @@
-package com.example.dragdemo.seekText;
+package com.jsdzxyh.oldkugou.seekText;
 
 import android.content.Context;
 import android.graphics.Canvas;

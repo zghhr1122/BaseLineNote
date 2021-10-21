@@ -1,10 +1,10 @@
-package com.example.dragdemo.seekText;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.jsdzxyh.oldkugou.seekText;
 
 import android.os.Bundle;
 
-import com.example.dragdemo.R;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.jsdzxyh.oldkugou.R;
 
 public class SeekbarActivity extends AppCompatActivity {
 

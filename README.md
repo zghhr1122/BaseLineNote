@@ -1,5 +1,15 @@
 # BaseLineNote
-自定义View画文本时的基线笔记
+
+
+修改AndroidManifest.xml的启动看效果。
+1、kugou包是旧版酷狗的左右滑。
+2、seekText包是seekbar加文字在居中位置。
+
+
+
+
+
+自定义View画文本时的基线笔记(seekText包)
 
 ![image](https://github.com/zghhr1122/BaseLineNote/baeline.png)
 
