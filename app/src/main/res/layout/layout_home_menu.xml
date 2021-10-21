@@ -78,12 +78,13 @@
             android:padding="5dp"
             android:text="彩铃模式"/>
         <TextView
+            android:id="@+id/gallery"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:textColor="#F57F17"
+            android:textColor="#ff0E78FF"
             android:padding="5dp"
-            android:text="私人云盘"/>
+            android:text="跳转画廊"/>
     </LinearLayout>
 
     <LinearLayout

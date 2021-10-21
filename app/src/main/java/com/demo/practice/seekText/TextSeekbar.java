@@ -1,4 +1,4 @@
-package com.jsdzxyh.oldkugou.seekText;
+package com.demo.practice.seekText;
 
 import android.content.Context;
 import android.graphics.Canvas;

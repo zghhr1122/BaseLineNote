@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jsdzxyh.oldkugou">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.demo.practice">
 
     <application
         android:allowBackup="true"
@@ -8,10 +9,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.OldKugou">
-        <activity android:name=".seekText.SeekbarActivity">
+        android:theme="@style/Theme.OldKugou"
+        tools:replace="android:theme">
+        <activity android:name="com.demo.practice.GalleryRv.MainActivity"/>
+        <activity android:name="com.demo.practice.seekText.SeekbarActivity">
         </activity>
-        <activity android:name=".kugou.KugouActivity">
+        <activity android:name="com.demo.practice.kugou.KugouActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

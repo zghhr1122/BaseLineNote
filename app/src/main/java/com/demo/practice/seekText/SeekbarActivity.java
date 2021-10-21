@@ -1,10 +1,10 @@
-package com.jsdzxyh.oldkugou.seekText;
+package com.demo.practice.seekText;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.jsdzxyh.oldkugou.R;
+import com.demo.practice.R;
 
 public class SeekbarActivity extends AppCompatActivity {
 

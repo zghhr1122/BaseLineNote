@@ -1,4 +1,4 @@
-package com.jsdzxyh.oldkugou.kugou;
+package com.demo.practice.kugou;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -13,7 +13,7 @@ import android.widget.HorizontalScrollView;
 
 import androidx.core.view.ViewCompat;
 
-import com.jsdzxyh.oldkugou.R;
+import com.demo.practice.R;
 
 public class SlidingMenu extends HorizontalScrollView {
     private View mMenuView,mContentView;

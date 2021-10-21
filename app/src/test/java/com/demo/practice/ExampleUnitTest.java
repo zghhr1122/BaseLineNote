@@ -1,4 +1,4 @@
-package com.jsdzxyh.oldkugou;
+package com.demo.practice;
 
 import org.junit.Test;
 
