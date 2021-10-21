@@ -2,8 +2,11 @@
 
 
 修改AndroidManifest.xml的启动看效果。
+
 1、kugou包是旧版酷狗的左右滑。
+
 2、seekText包是seekbar加文字在居中位置。
+
 
 
 
